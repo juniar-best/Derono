@@ -6,8 +6,8 @@ uint8_t i = 0; // PWM 占空比变量
 
 int main(void)
 {
-    OLED_Init();
-    PWM_Init();
+    OLED_Init();  //OLED初始化
+    PWM_Init();   //PWM初始化
 
 
     while(1)                
